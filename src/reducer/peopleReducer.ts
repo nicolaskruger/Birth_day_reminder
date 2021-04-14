@@ -1,6 +1,5 @@
 import { ActionTypes, EnumDictionary } from "../actions/actionTypes";
 import { PeopleAction, PeopleState } from "../actions/types";
-import { IPeople } from "../app/People";
 import { inithialState } from "./inithialStatete";
 
 const clear = (state: PeopleState, action: PeopleAction): PeopleState => ({

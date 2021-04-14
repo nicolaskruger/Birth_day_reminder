@@ -1,0 +1,26 @@
+.people__img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.people__main__div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.people__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.people__name {
+  margin: 0;
+  color: #282a36;
+}
+.people__age {
+  margin: 0;
+  font-weight: 200;
+}
