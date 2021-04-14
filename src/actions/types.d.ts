@@ -2,7 +2,9 @@ import { type } from "node:os";
 import { IPeople } from "../app/People";
 import { ActionTypes } from "./actionTypes";
 
-type PeopleState = IPeople[];
+type PeopleState = {
+    peoples: IPeople[]
+};
 
 type PeopleAction = {
     type: ActionTypes

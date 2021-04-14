@@ -1,7 +1,7 @@
 import { PeopleState } from "../actions/types";
 import { IPeople } from "../app/People";
 
-export const inithialState: PeopleState = [
+const peoples: IPeople[] = [
     {
         name: "Bertie Yates",
         age: 29,
@@ -28,3 +28,7 @@ export const inithialState: PeopleState = [
         img: "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg"
     },
 ]
+
+export const inithialState: PeopleState = {
+    peoples: peoples
+}
